@@ -1,0 +1,17 @@
+screen.COLOR=Color
+screen.COLOR.comment=Control what colors the shader uses
+
+option.SENS=Sensitivity
+option.SENS.comment=Minimum average of delta color components (RGB) between the previous and current frame for every pixel to detect movement
+
+option.R=Red
+option.R.comment=Red component of the color used to replace pixels with no movement
+
+option.G=Green
+option.G.comment=Green component of the color used to replace pixels with no movement
+
+option.B=Blue
+option.B.comment=Blue component of the color used to replace pixels with no movement
+
+option.INVERT=Inverted
+option.INVERT.comment=Toggle for whether or not pixels with movement have their color inverted
